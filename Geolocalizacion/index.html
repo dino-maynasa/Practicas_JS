@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <title>Práctica Geolocalización</title>
+</head>
+<body>
+    <h1 style="text-align: center; text-decoration: underline;">Geolocalización</h1>
+<main class="container">
+    <form id="form">
+        <label for="">        
+            IP del usuario:
+            <input type="text" placeholder="Introduce tu IP" >        
+        </label>
+        <small>Por ejemplo: 54.56.132.205</small>
+        <button type="submit" id="submit">
+            Buscar la información de esta IP
+        </button>
+    </form>
+    <!-- resultados -->
+    <div>
+        <pre id="results"> </pre>
+    </div>
+</main>
+
+    <script src="/Geolocalizacion/a.js">
+    </script>
+</body>
+</html>
